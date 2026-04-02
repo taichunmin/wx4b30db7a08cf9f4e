@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "手机/手环NFC钥匙",
+  "usingComponents": {
+    "t-toast": "../../miniprogram_npm/tdesign-miniprogram/toast/toast",
+    "t-button": "../../miniprogram_npm/tdesign-miniprogram/button/button",
+    "t-steps": "../../miniprogram_npm/tdesign-miniprogram/steps/steps",
+    "t-step-item": "../../miniprogram_npm/tdesign-miniprogram/step-item/step-item",
+    "t-radio": "../../miniprogram_npm/tdesign-miniprogram/radio/radio",
+    "t-cell": "../../miniprogram_npm/tdesign-miniprogram/cell/cell",
+    "t-switch": "../../miniprogram_npm/tdesign-miniprogram/switch/switch",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

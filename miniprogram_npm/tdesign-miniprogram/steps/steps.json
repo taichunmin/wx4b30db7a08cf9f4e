@@ -1,1 +1,8 @@
-{"component":true,"usingComponents":{"t-step":"../step-item/step-item"}}
+{
+  "component": true,
+  "styleIsolation": "apply-shared",
+  "usingComponents": {
+    "t-step": "../step-item/step-item",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

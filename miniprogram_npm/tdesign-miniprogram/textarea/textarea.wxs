@@ -1,0 +1,14 @@
+var utils = require('..\..\..\require('.\miniprogram_npm\ tdesign - miniprogram\ common\ utils.wxs ')();');
+
+function textareaStyle(autosize) {
+  if (autosize && autosize.constructor === 'Object') {
+    return (utils._style(({
+      'min-height': utils.addUnit(autosize.minHeight),
+      'max-height': utils.addUnit(autosize.maxHeight),
+    })))
+  };
+  return ('')
+};
+module.exports = ({
+  textareaStyle: textareaStyle,
+});

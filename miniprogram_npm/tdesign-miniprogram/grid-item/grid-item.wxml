@@ -1,0 +1,9 @@
+
+<wxs module="util">
+module.exports.getImageSize = (function(column) {
+  if (column >= 5) return ('small');;
+  if (column == 4) return ('middle');;
+  return ('large')
+});
+</wxs>
+<wxs module="_" src="..\common\utils.wxs"/>

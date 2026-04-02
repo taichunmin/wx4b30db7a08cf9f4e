@@ -1,0 +1,3 @@
+
+<wxs module="swipe" src="swipe-cell.wxs"/>
+<wxs module="_" src="..\common\utils.wxs"/>

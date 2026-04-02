@@ -1,0 +1,80 @@
+.info {
+    background-color: #fff;
+    border: 3rpx solid #10101010;
+    border-radius: 16rpx;
+    margin: 12rpx;
+    padding: 32rpx
+}
+
+.info-ntag {
+    background-color: #00bfff20
+}
+
+.info-id {
+    background-color: #98f5ff20
+}
+
+.info .title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-top: 12rpx
+}
+
+.info .title {
+    font-size: 32rpx;
+    padding-left: 12rpx
+}
+
+.info .title-abreast {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.card-data {
+    padding: 24rpx
+}
+
+.card-loading {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-top: 64rpx
+}
+
+.cardhub-block {
+    border-radius: 10rpx;
+    color: #333;
+    margin-top: 20rpx;
+    padding: 24rpx;
+    width: 375rpx
+}
+
+.cardhub-block-item {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 32rpx;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 14rpx
+}
+
+.cardhub-block-item-after {
+    background-color: #b3b3b3;
+    height: 1px;
+    left: 0;
+    right: 0;
+    -webkit-transform: scaleY(.3);
+    transform: scaleY(.3)
+}
+
+.cardhub-block-item-name {
+    margin-left: 12rpx
+}

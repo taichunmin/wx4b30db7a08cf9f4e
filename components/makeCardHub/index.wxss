@@ -1,0 +1,21 @@
+.dialog {
+    padding: 24rpx
+}
+
+.dialog .title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-top: 24rpx
+}
+
+.textarea-error {
+    color: #d54941;
+    font-size: 24rpx;
+    line-height: 40rpx;
+    padding-bottom: 24rpx;
+    padding-left: 24rpx
+}
+
+.textarea-border {
+    border-bottom: 1px solid #dcdcdc
+}

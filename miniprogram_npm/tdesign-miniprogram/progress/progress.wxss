@@ -1,0 +1,194 @@
+@import "..\common\style\index.wxss";
+
+.t-progress {
+    --td-progress-inner-bg-color: var(--td-brand-color,var(--td-primary-color-7,#0052d9));
+    --td-progress-track-bg-color: var(--td-bg-color-component,var(--td-gray-color-3,#e7e7e7));
+    --td-progress-circle-from: 0deg
+}
+
+.t-progress__inner {
+    background: var(--td-progress-inner-bg-color,var(--td-brand-color,var(--td-primary-color-7,#0052d9)));
+    height: 100%;
+    position: relative;
+    transition: all var(--td-anim-duration-base,.2s) var(--td-anim-time-fn-easing,cubic-bezier(.38,0,.24,1))
+}
+
+.t-progress__bar,.t-progress__inner {
+    border-radius: var(--td-radius-round,999px)
+}
+
+.t-progress__bar {
+    background: var(--td-progress-track-bg-color,var(--td-bg-color-component,var(--td-gray-color-3,#e7e7e7)));
+    height: var(--td-progress-line-stroke-width,12rpx);
+    overflow: hidden;
+    width: 100%
+}
+
+.t-progress__info {
+    box-sizing: border-box;
+    color: var(--td-progress-info-dark-color,var(--td-text-color-primary,var(--td-font-gray-1,rgba(0,0,0,.9))));
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    padding-left: var(--td-spacer,16rpx);
+    white-space: nowrap
+}
+
+.t-progress--thin {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.t-progress--thin .t-progress__icon {
+    font-size: calc(var(--td-font-size-base,28rpx) + 2px)
+}
+
+.t-progress--plump {
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: calc(var(--td-progress-stroke-plump-width,40rpx)/ 2);
+    display: -webkit-flex;
+    display: flex;
+    height: var(--td-progress-stroke-plump-width,40rpx)
+}
+
+.t-progress--plump .t-progress__info {
+    font-size: var(--td-font-size-s,24rpx)
+}
+
+.t-progress--over-ten .t-progress__info {
+    color: var(--td-progress-info-light-color,var(--td-text-color-anti,var(--td-font-white-1,#fff)));
+    position: absolute;
+    right: var(--td-spacer,16rpx);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.t-progress--under-ten .t-progress__info,.t-progress--under-ten .t-progress__inner {
+    display: inline-block
+}
+
+.t-progress--under-ten .t-progress__info {
+    vertical-align: top
+}
+
+.t-progress__canvas--circle {
+    border-radius: var(--td-radius-circle,50%);
+    height: var(--td-progress-circle-width,224rpx);
+    position: relative;
+    width: var(--td-progress-circle-width,224rpx)
+}
+
+.t-progress__canvas--circle .t-progress__canvas--inner {
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: var(--td-progress-circle-inner-bg-color,var(--td-text-color-anti,var(--td-font-white-1,#fff)));
+    border-radius: var(--td-radius-circle,50%);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    height: calc(100% - var(--td-progress-stroke-circle-width,12rpx)*2);
+    -webkit-justify-content: center;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: calc(100% - var(--td-progress-stroke-circle-width,12rpx)*2)
+}
+
+.t-progress__canvas--circle .t-progress__info {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    font-size: var(--td-progress-circle-label-font-size,40rpx);
+    font-weight: var(--td-progress-circle-label-font-weight,700);
+    line-height: var(--td-progress-circle-label-line-height,56rpx);
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.t-progress__canvas--circle--micro {
+    --td-progress-circle-width: 48rpx;
+    --td-progress-stroke-circle-width: 4rpx;
+    --td-progress-circle-icon-font-size: 40rpx
+}
+
+.t-progress--status--active .t-progress__inner::before {
+    -webkit-animation: progress-active-animation 2s cubic-bezier(.23,.99,.86,.2) infinite;
+    animation: progress-active-animation 2s cubic-bezier(.23,.99,.86,.2) infinite;
+    background: var(--td-progress-inner-bg-color-active,var(--td-bg-color-container,var(--td-font-white-1,#fff)));
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: .2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1
+}
+
+.t-progress--status--success .t-progress__inner {
+    background: var(--td-progress-inner-bg-color-success,var(--td-success-color,var(--td-success-color-5,#2ba471)))
+}
+
+.t-progress--status--success .t-progress__icon {
+    color: var(--td-success-color,var(--td-success-color-5,#2ba471))
+}
+
+.t-progress--status--warning .t-progress__inner {
+    background: var(--td-progress-inner-bg-color-warning,var(--td-warning-color,var(--td-warning-color-5,#e37318)))
+}
+
+.t-progress--status--warning .t-progress__icon {
+    color: var(--td-warning-color,var(--td-warning-color-5,#e37318))
+}
+
+.t-progress--status--error .t-progress__inner {
+    background: var(--td-progress-inner-bg-color-error,var(--td-error-color,var(--td-error-color-6,#d54941)))
+}
+
+.t-progress--status--error .t-progress__icon {
+    color: var(--td-error-color,var(--td-error-color-6,#d54941))
+}
+
+@-webkit-keyframes progress-active-animation {
+    0% {
+        opacity: .1;
+        width: 0
+    }
+
+    35% {
+        opacity: .4;
+        width: 50%
+    }
+
+    100% {
+        opacity: 0;
+        width: 100%
+    }
+}
+
+@keyframes progress-active-animation {
+    0% {
+        opacity: .1;
+        width: 0
+    }
+
+    35% {
+        opacity: .4;
+        width: 50%
+    }
+
+    100% {
+        opacity: 0;
+        width: 100%
+    }
+}

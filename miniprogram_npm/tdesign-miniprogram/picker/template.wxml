@@ -1,0 +1,18 @@
+<view class="{{classPrefix}} {{prefix}}-class" slot="content" style="{{_._style( [style,customStyle] )}}">
+    <view class="{{classPrefix}}__toolbar" wx:if="{{header}}">
+        <view bindtap="onCancel" class="{{classPrefix}}__cancel {{prefix}}-class-cancel" wx:if="{{cancelBtn}}">{{cancelBtn}}</view>
+        <view class="{{classPrefix}}__title {{prefix}}-class-title">{{title}}</view>
+        <view bindtap="onConfirm" class="{{classPrefix}}__confirm {{prefix}}-class-confirm" wx:if="{{confirmBtn}}">{{confirmBtn}}</view>
+    </view>
+    <slot name="header"></slot>
+    <slot name="content"></slot>
+    <view class="{{_.cls( classPrefix+'__main',[] )}}">
+        <slot></slot>
+        <view class="{{classPrefix}}__mask {{classPrefix}}__mask--top"></view>
+        <view class="{{classPrefix}}__mask {{classPrefix}}__mask--bottom"></view>
+        <view class="{{classPrefix}}__indicator" style="height:{{pickItemHeight}}px"></view>
+    </view>
+    <slot name="footer"></slot>
+</view>
+
+<wxs module="_" src="..\common\utils.wxs"/>

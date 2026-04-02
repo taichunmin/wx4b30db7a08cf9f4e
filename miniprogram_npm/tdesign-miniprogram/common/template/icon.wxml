@@ -1,0 +1,3 @@
+<template name="icon">
+    <t-icon ariaHidden="{{ariaHidden||''}}" ariaLabel="{{ariaLabel||''}}" ariaRole="{{ariaRole||''}}" bind:click="{{bindclick||''}}" color="{{color||''}}" name="{{name||''}}" prefix="{{prefix||''}}" size="{{size||''}}" style="{{style||''}}" tClass="{{tClass}}"></t-icon>
+</template>

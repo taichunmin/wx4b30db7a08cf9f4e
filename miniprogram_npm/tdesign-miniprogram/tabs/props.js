@@ -1,0 +1,50 @@
+Object.defineProperty(exports, "__esModule", {
+  value: !0
+}), exports.default = void 0;
+var e = {
+  animation: {
+    type: Object
+  },
+  bottomLineMode: {
+    type: String,
+    value: "fixed"
+  },
+  externalClasses: {
+    type: Array
+  },
+  showBottomLine: {
+    type: Boolean,
+    value: !0
+  },
+  spaceEvenly: {
+    type: Boolean,
+    value: !0
+  },
+  split: {
+    type: Boolean,
+    value: !0
+  },
+  sticky: {
+    type: Boolean,
+    value: !1
+  },
+  stickyProps: {
+    type: Object
+  },
+  swipeable: {
+    type: Boolean,
+    value: !0
+  },
+  theme: {
+    type: String,
+    value: "line"
+  },
+  value: {
+    type: null,
+    value: null
+  },
+  defaultValue: {
+    type: null
+  }
+};
+exports.default = e;

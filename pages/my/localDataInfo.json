@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "查看本地数据",
+  "usingComponents": {
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "t-tab-bar": "../miniprogram_npm/tdesign-miniprogram/tab-bar/tab-bar",
+    "t-tab-bar-item": "../miniprogram_npm/tdesign-miniprogram/tab-bar-item/tab-bar-item",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

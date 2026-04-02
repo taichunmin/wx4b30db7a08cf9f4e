@@ -1,0 +1,101 @@
+@import "..\common\style\index.wxss";
+
+.t-toast {
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    background-color: var(--td-toast-bg-color,var(--td-font-gray-2,rgba(0,0,0,.6)));
+    border-radius: var(--td-toast-radius,8rpx);
+    box-sizing: border-box;
+    color: var(--td-toast-color,var(--td-text-color-anti,var(--td-font-white-1,#fff)));
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    font-size: 28rpx;
+    left: 50%;
+    max-width: var(--td-toast-max-width,374rpx);
+    min-height: 0;
+    opacity: 1;
+    position: fixed;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    transition: opacity .3s ease;
+    width: auto;
+    z-index: 12001
+}
+
+.t-toast,.t-toast--column {
+    display: -webkit-flex;
+    display: flex
+}
+
+.t-toast--column {
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 16rpx;
+    -webkit-justify-content: center;
+    justify-content: center;
+    min-height: 160rpx;
+    min-width: 160rpx;
+    padding: 48rpx
+}
+
+.t-toast--loading.t-toast--with-text {
+    min-height: 204rpx;
+    min-width: 204rpx;
+    padding-bottom: 0;
+    padding-top: 0
+}
+
+.t-toast__content {
+    -webkit-align-items: center;
+    align-items: center;
+    line-height: 44rpx
+}
+
+.t-toast__content--row {
+    display: -webkit-flex;
+    display: flex;
+    padding: 28rpx 44rpx;
+    text-align: left
+}
+
+.t-toast__content--column {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.t-toast__icon--row {
+    display: -webkit-flex;
+    display: flex;
+    font-size: var(--td-toast-row-icon-size,48rpx)
+}
+
+.t-toast__icon--column {
+    font-size: var(--td-toast-column-icon-size,64rpx)
+}
+
+.t-toast__text {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line
+}
+
+.t-toast__text--column:not(:empty):not(:only-child) {
+    margin-top: 16rpx
+}
+
+.t-toast__text--row:not(:empty):not(:only-child) {
+    margin-left: 16rpx
+}
+
+.t-toast.t-fade-enter,.t-toast.t-fade-leave-to {
+    opacity: 0
+}

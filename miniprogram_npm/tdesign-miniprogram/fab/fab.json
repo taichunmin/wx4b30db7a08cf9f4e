@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "styleIsolation": "apply-shared",
+  "usingComponents": {
+    "t-button": "../button/button",
+    "t-draggable": "draggable/draggable",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

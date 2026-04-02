@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "添加NFC标签卡记录",
+  "usingComponents": {
+    "t-toast": "../../miniprogram_npm/tdesign-miniprogram/toast/toast",
+    "t-popup": "../../miniprogram_npm/tdesign-miniprogram/popup/popup",
+    "t-cell-group": "../../miniprogram_npm/tdesign-miniprogram/cell-group/cell-group",
+    "t-cell": "../../miniprogram_npm/tdesign-miniprogram/cell/cell",
+    "t-icon": "../../miniprogram_npm/tdesign-miniprogram/icon/icon",
+    "t-button": "../../miniprogram_npm/tdesign-miniprogram/button/button",
+    "t-textarea": "../../miniprogram_npm/tdesign-miniprogram/textarea/textarea",
+    "t-input": "../../miniprogram_npm/tdesign-miniprogram/input/input",
+    "t-dropdown-menu": "../../miniprogram_npm/tdesign-miniprogram/dropdown-menu/dropdown-menu",
+    "t-dropdown-item": "../../miniprogram_npm/tdesign-miniprogram/dropdown-item/dropdown-item",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

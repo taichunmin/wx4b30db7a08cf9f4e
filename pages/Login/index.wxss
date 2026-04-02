@@ -1,0 +1,44 @@
+.login {
+    bottom: 0;
+    left: 0;
+    padding-bottom: 56rpx;
+    position: fixed;
+    width: 100%
+}
+
+.login .col {
+    display: table-cell;
+    height: 468rpx;
+    text-align: center;
+    vertical-align: middle;
+    width: 750rpx
+}
+
+.login .input {
+    --td-input-vertical-padding: 24rpx;
+    --td-input-horizontal-padding: 24rpx;
+    padding: 24rpx
+}
+
+.login .input .t-input {
+    margin-bottom: 16rpx
+}
+
+.login .input .t-radio {
+    background-color: initial;
+    font-size: 26rpx
+}
+
+.login .input .t-button {
+    margin-bottom: 32rpx
+}
+
+.login .input .link-info {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin: 32rpx 20rpx
+}

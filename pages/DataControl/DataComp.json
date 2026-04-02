@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "数据对比",
+  "usingComponents": {
+    "t-button": "../../miniprogram_npm/tdesign-miniprogram/button/button",
+    "t-toast": "../../miniprogram_npm/tdesign-miniprogram/toast/toast",
+    "t-message": "../../miniprogram_npm/tdesign-miniprogram/message/message",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

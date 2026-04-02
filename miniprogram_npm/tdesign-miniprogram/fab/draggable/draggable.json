@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

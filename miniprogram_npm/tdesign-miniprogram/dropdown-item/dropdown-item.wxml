@@ -1,0 +1,3 @@
+
+<wxs module="_this" src="index.wxs"/>
+<wxs module="_" src="..\common\utils.wxs"/>

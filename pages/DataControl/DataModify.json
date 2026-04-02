@@ -1,0 +1,15 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "修改数据",
+  "usingComponents": {
+    "t-radio": "../../miniprogram_npm/tdesign-miniprogram/radio/radio",
+    "t-radio-group": "../../miniprogram_npm/tdesign-miniprogram/radio-group/radio-group",
+    "t-navbar": "../../miniprogram_npm/tdesign-miniprogram/navbar/navbar",
+    "t-toast": "../../miniprogram_npm/tdesign-miniprogram/toast/toast",
+    "t-popup": "../../miniprogram_npm/tdesign-miniprogram/popup/popup",
+    "t-icon": "../../miniprogram_npm/tdesign-miniprogram/icon/icon",
+    "t-input": "../../miniprogram_npm/tdesign-miniprogram/input/input",
+    "t-dialog": "../../miniprogram_npm/tdesign-miniprogram/dialog/dialog",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

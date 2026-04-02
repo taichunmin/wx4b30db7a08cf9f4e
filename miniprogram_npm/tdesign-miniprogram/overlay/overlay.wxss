@@ -1,0 +1,17 @@
+@import "..\common\style\index.wxss";
+
+.t-overlay {
+    background-color: var(--td-overlay-bg-color,var(--td-font-gray-2,rgba(0,0,0,.6)));
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition-duration: var(--td-overlay-transition-duration,.3s);
+    transition-property: opacity;
+    transition-timing-function: ease;
+    width: 100%
+}
+
+.t-fade-enter,.t-fade-leave-to {
+    opacity: 0
+}

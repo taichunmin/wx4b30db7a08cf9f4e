@@ -1,0 +1,44 @@
+@import "..\common\style\index.wxss";
+
+.t-swipe-cell {
+    overflow: hidden;
+    position: relative
+}
+
+.t-swipe-cell__left,.t-swipe-cell__right {
+    height: 100%;
+    position: absolute;
+    top: 0
+}
+
+.t-swipe-cell__left {
+    left: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0)
+}
+
+.t-swipe-cell__right {
+    right: 0;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0)
+}
+
+.t-swipe-cell__content {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 0 var(--td-spacer-2,32rpx)
+}
+
+.t-swipe-cell__icon {
+    font-size: var(--td-font-size-xl,40rpx)
+}
+
+.t-swipe-cell__icon+.t-swipe-cell__text:not(:empty) {
+    font-size: var(--td-font-size-base,28rpx);
+    line-height: 44rpx;
+    margin-left: var(--td-spacer,16rpx)
+}

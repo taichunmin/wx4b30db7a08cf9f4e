@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "styleIsolation": "apply-shared",
+  "usingComponents": {
+    "t-radio": "../radio/radio",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

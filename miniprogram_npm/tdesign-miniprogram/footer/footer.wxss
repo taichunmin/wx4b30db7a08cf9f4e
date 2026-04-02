@@ -1,0 +1,72 @@
+@import "..\common\style\index.wxss";
+
+.t-footer {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start
+}
+
+.t-footer__text {
+    color: var(--td-footer-text-color,var(--td-text-color-placeholder,var(--td-font-gray-3,rgba(0,0,0,.4))));
+    font-size: var(--td-footer-text-font-size,var(--td-font-size-s,24rpx));
+    line-height: var(--td-footer-text-line-height,40rpx)
+}
+
+.t-footer__link-list+.t-footer__text:not(:empty) {
+    margin-top: var(--td-footer-text-margin-top,8rpx)
+}
+
+.t-footer__link-list {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.t-footer__link-item {
+    color: var(--td-footer-link-color,var(--td-brand-color,var(--td-primary-color-7,#0052d9)));
+    font-size: var(--td-footer-link-font-size,var(--td-font-size-s,24rpx));
+    line-height: var(--td-footer-link-line-height,40rpx);
+    text-decoration: underline
+}
+
+.t-footer__link-line {
+    color: var(--td-footer-link-dividing-line-color,var(--td-text-color-placeholder,var(--td-font-gray-3,rgba(0,0,0,.4))));
+    display: inline-block;
+    font-size: 24rpx;
+    padding: 0 var(--td-footer-link-dividing-line-padding,var(--td-spacer-1,24rpx))
+}
+
+.t-footer__logo {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.t-footer__icon {
+    height: var(--td-footer-logo-icon-height,48rpx);
+    margin-right: var(--td-footer-logo-icon-margin-right,var(--td-spacer,16rpx));
+    width: var(--td-footer-logo-icon-width,48rpx)
+}
+
+.t-footer__title {
+    color: var(--td-text-color-primary,var(--td-font-gray-1,rgba(0,0,0,.9)));
+    font-size: var(--td-footer-logo-title-font-size,var(--td-font-size-m,32rpx));
+    font-style: italic;
+    font-weight: 700;
+    line-height: var(--td-footer-logo-title-line-height,48rpx)
+}
+
+.t-footer__title-url {
+    width: var(--td-footer-logo-title-url-width,256rpx)
+}

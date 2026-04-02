@@ -1,0 +1,43 @@
+@import "..\common\style\index.wxss";
+
+.t-pull-down-refresh {
+    height: 100%;
+    overflow: hidden
+}
+
+.t-pull-down-refresh__track {
+    position: relative
+}
+
+.t-pull-down-refresh__track--loosing {
+    transition: -webkit-transform .24s ease;
+    transition: transform .24s ease;
+    transition: transform .24s ease,-webkit-transform .24s ease
+}
+
+.t-pull-down-refresh__tips {
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--td-pull-down-refresh-color,var(--td-text-color-placeholder,var(--td-font-gray-3,rgba(0,0,0,.4))));
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    font-size: 24rpx;
+    -webkit-justify-content: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    width: 100%
+}
+
+.t-pull-down-refresh__tips--loosing {
+    transition: height .24s ease
+}
+
+.t-pull-down-refresh__text {
+    margin: 16rpx 0 0
+}

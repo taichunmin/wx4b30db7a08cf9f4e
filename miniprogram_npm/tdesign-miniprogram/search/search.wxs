@@ -1,0 +1,6 @@
+var highLight = (function(label, keyword) {
+  return (label.replace(keyword, '\x3cspan class\x3d\x22t-search__result-item--highLight\x22\x3e' + keyword + '\x3c/span\x3e'))
+});
+module.exports = ({
+  highLight: highLight,
+});

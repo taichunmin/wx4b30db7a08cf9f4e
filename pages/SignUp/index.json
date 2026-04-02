@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "免费注册",
+  "usingComponents": {
+    "t-toast": "../../miniprogram_npm/tdesign-miniprogram/toast/toast",
+    "t-input": "../../miniprogram_npm/tdesign-miniprogram/input/input",
+    "t-button": "../../miniprogram_npm/tdesign-miniprogram/button/button",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

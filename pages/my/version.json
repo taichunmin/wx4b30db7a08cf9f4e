@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "更新日志",
+  "usingComponents": {
+    "t-textarea": "../../miniprogram_npm/tdesign-miniprogram/textarea/textarea",
+    "t-divider": "../../miniprogram_npm/tdesign-miniprogram/divider/divider",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

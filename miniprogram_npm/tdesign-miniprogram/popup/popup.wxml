@@ -1,0 +1,3 @@
+
+<wxs module="popup" src="popup.wxs"/>
+<wxs module="_" src="..\common\utils.wxs"/>

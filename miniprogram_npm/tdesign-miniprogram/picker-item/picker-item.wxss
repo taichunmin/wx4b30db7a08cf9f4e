@@ -1,0 +1,35 @@
+@import "..\common\style\index.wxss";
+
+.t-picker-item__group {
+    -webkit-flex: 1;
+    flex: 1;
+    height: var(--td-picker-group-height,400rpx);
+    overflow: hidden;
+    z-index: 1
+}
+
+.t-picker-item__wrapper {
+    padding: 144rpx 0
+}
+
+.t-picker-item__item {
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--td-picker-item-color,var(--td-text-color-secondary,var(--td-font-gray-2,rgba(0,0,0,.6))));
+    display: -webkit-flex;
+    display: flex;
+    font-size: var(--td-picker-item-font-size,var(--td-font-size-m,32rpx));
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.t-picker-item__item-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.t-picker-item__item--active {
+    color: var(--td-picker-item-active-color,var(--td-text-color-primary,var(--td-font-gray-1,rgba(0,0,0,.9))));
+    font-weight: 600
+}

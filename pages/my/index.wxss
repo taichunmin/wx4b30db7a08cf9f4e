@@ -1,0 +1,46 @@
+.my_info {
+    background-color: #009688;
+    height: 320rpx;
+    width: 100%
+}
+
+.my_info .title {
+    color: #fff;
+    font-size: 38rpx;
+    line-height: 340rpx;
+    margin-left: 24rpx
+}
+
+.my_info .side {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 320rpx;
+    -webkit-justify-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 750rpx
+}
+
+.my_info .side .user_info {
+    width: 50%
+}
+
+.my_info .side .user_info .user_account {
+    color: #fff;
+    font-size: 32rpx;
+    margin-left: 24rpx
+}
+
+.my_info .side .user_info .user_nickname {
+    color: #fff;
+    font-size: 40rpx;
+    margin-bottom: 12rpx;
+    margin-left: 24rpx
+}
+
+.t-cell-group__title {
+    font-size: 24rpx;
+    line-height: 104rpx
+}

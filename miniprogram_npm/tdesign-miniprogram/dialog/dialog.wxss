@@ -1,0 +1,134 @@
+@import "..\common\style\index.wxss";
+
+.t-dialog {
+    background-color: var(--td-bg-color-container,var(--td-font-white-1,#fff));
+    border-radius: var(--td-dialog-border-radius,var(--td-radius-extra-large,24rpx));
+    overflow: hidden;
+    width: var(--td-dialog-width,622rpx)
+}
+
+.t-dialog__wrapper {
+    --td-popup-border-radius: var(--td-dialog-border-radius,var(--td-radius-extra-large,24rpx))
+}
+
+.t-dialog__close-btn {
+    color: var(--td-dialog-close-color,var(--td-text-color-placeholder,var(--td-font-gray-3,rgba(0,0,0,.4))));
+    position: absolute;
+    right: var(--td-spacer,16rpx);
+    top: var(--td-spacer,16rpx);
+    z-index: 1
+}
+
+.t-dialog__content {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    font-size: var(--td-font-size-m,32rpx);
+    -webkit-justify-content: center;
+    justify-content: center;
+    max-height: var(--td-dialog-body-max-height,912rpx);
+    padding-bottom: 0;
+    padding-left: var(--td-spacer-3,48rpx);
+    padding-right: var(--td-spacer-3,48rpx);
+    padding-top: var(--td-spacer-3,48rpx)
+}
+
+.t-dialog__content:empty {
+    display: none
+}
+
+.t-dialog__header {
+    color: var(--td-dialog-title-color,var(--td-text-color-primary,var(--td-font-gray-1,rgba(0,0,0,.9))));
+    font-size: var(--td-dialog-title-font-size,36rpx);
+    font-weight: 700;
+    line-height: var(--td-dialog-title-line-height,52rpx);
+    text-align: center
+}
+
+.t-dialog__header+.t-dialog__page {
+    margin-top: var(--td-spacer,16rpx)
+}
+
+.t-dialog__page {
+    -webkit-overflow-scrolling: touch;
+    color: var(--td-dialog-content-color,var(--td-text-color-secondary,var(--td-font-gray-2,rgba(0,0,0,.6))));
+    font-size: var(--td-dialog-content-font-size,32rpx);
+    line-height: var(--td-dialog-content-line-height,48rpx);
+    overflow-y: scroll;
+    text-align: center
+}
+
+.t-dialog__body-text {
+    word-wrap: break-word
+}
+
+.t-dialog__body--left {
+    text-align: left
+}
+
+.t-dialog__body--right {
+    text-align: right
+}
+
+.t-dialog__footer {
+    display: -webkit-flex;
+    display: flex;
+    padding: var(--td-spacer-3,48rpx)
+}
+
+.t-dialog__footer--column {
+    -webkit-flex-flow: column-reverse;
+    flex-flow: column-reverse
+}
+
+.t-dialog__footer--column .t-dialog__button {
+    width: 100%
+}
+
+.t-dialog__footer--full {
+    padding: var(--td-spacer-4,64rpx) 0 0
+}
+
+.t-dialog__button {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.t-dialog__button--horizontal+.t-dialog__button--horizontal {
+    margin-left: var(--td-spacer-1,24rpx)
+}
+
+.t-dialog__button--vertical+.t-dialog__button--vertical {
+    margin-bottom: var(--td-spacer-1,24rpx)
+}
+
+.t-dialog__button--text {
+    --td-button-border-radius: 0;
+    --td-button-medium-height: 112rpx;
+    border-radius: 0;
+    -webkit-flex: 1;
+    flex: 1
+}
+
+.t-dialog__button--text:before {
+    border-left: 1px solid var(--td-border-level-1-color,var(--td-gray-color-3,#e7e7e7));
+    border-radius: 0;
+    border-top: 1px solid var(--td-border-level-1-color,var(--td-gray-color-3,#e7e7e7));
+    box-sizing: border-box;
+    content: " ";
+    height: 200%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    width: 200%
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "隐私政策",
+  "usingComponents": {
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

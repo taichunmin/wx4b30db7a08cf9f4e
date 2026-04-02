@@ -1,0 +1,44 @@
+.simulate-card {
+    background-color: #87cefa;
+    border: 3rpx solid #10101010;
+    border-radius: 16rpx;
+    margin: 26rpx 48rpx 0;
+    padding: 32rpx
+}
+
+.simulate-card .title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-top: 12rpx
+}
+
+.simulate-card .title {
+    font-size: 32rpx;
+    padding-left: 12rpx
+}
+
+.simulate-tip {
+    color: #333;
+    font-size: 30rpx;
+    padding: 48rpx 32rpx 0
+}
+
+.btn-bottom {
+    bottom: 56rpx;
+    left: 24rpx;
+    position: fixed;
+    right: 24rpx
+}
+
+.external-class {
+    border-radius: 0!important
+}
+
+.radio-class {
+    --td-radio-bg-color: transparent;
+    --td-radio-border-color: transparent;
+    --td-radio-font-size: 30rpx;
+    --td-radio-icon-size: 42rpx;
+    padding-top: 8rpx
+}

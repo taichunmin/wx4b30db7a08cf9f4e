@@ -1,0 +1,47 @@
+Object.defineProperty(exports, "__esModule", {
+  value: !0
+}), exports.default = void 0;
+var e = {
+  allowUncheck: {
+    type: Boolean,
+    value: !1
+  },
+  borderless: {
+    type: Boolean,
+    value: !1
+  },
+  disabled: {
+    type: null,
+    value: void 0
+  },
+  icon: {
+    type: null,
+    value: "circle"
+  },
+  keys: {
+    type: Object
+  },
+  name: {
+    type: String,
+    value: ""
+  },
+  options: {
+    type: Array
+  },
+  placement: {
+    type: String,
+    value: "left"
+  },
+  readonly: {
+    type: null,
+    value: void 0
+  },
+  value: {
+    type: null,
+    value: null
+  },
+  defaultValue: {
+    type: null
+  }
+};
+exports.default = e;

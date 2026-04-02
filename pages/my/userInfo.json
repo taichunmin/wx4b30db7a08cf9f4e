@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "usingComponents": {
+    "t-button": "../../miniprogram_npm/tdesign-miniprogram/button/button",
+    "t-cell-group": "../../miniprogram_npm/tdesign-miniprogram/cell-group/cell-group",
+    "t-cell": "../../miniprogram_npm/tdesign-miniprogram/cell/cell",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

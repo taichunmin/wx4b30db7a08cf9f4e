@@ -1,0 +1,9 @@
+<import src="../../common/template/button.wxml"></import>
+<template name="view">
+    <view class="{{classPrefix}} class {{prefix}}-class" style="right:16px;bottom:32px;{{_._style( [style,customStyle] )}}">
+        <slot wx:if="{{!buttonData.content&&!buttonData.icon}}"></slot>
+        <template is="button" data="{{useDefaultSlot:true,...buttonData}}" wx:else></template>
+    </view>
+</template>
+
+<wxs module="_" src="..\..\common\utils.wxs"/>

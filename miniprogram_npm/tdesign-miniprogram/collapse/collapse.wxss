@@ -1,0 +1,7 @@
+@import "..\common\style\index.wxss";
+
+.t-collapse--card {
+    border-radius: var(--td-radius-large,18rpx);
+    margin: 0 32rpx;
+    overflow: hidden
+}

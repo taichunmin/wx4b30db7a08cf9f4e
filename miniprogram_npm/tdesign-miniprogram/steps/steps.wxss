@@ -1,0 +1,26 @@
+@import "..\common\style\index.wxss";
+
+.t-step--vertical {
+    padding-right: 32rpx
+}
+
+.t-steps {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%
+}
+
+.t-steps--vertical {
+    -webkit-flex-direction: column;
+    flex-direction: column
+}
+
+.t-steps--reverse {
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse
+}
+
+.t-steps--vertical.t-steps--reverse {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse
+}

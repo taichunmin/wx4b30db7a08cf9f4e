@@ -1,0 +1,53 @@
+@import "..\common\style\index.wxss";
+
+.t-tab-bar {
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: var(--td-tab-bar-bg-color,var(--td-bg-color-container,var(--td-font-white-1,#fff)));
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    position: relative
+}
+
+.t-tab-bar--normal.t-tab-bar--border::before {
+    border-top: 1px solid var(--td-tab-bar-border-color,var(--td-border-level-1-color,var(--td-gray-color-3,#e7e7e7)));
+    box-sizing: border-box;
+    content: " ";
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    z-index: 1
+}
+
+.t-tab-bar--fixed {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0
+}
+
+.t-tab-bar--normal.t-tab-bar--safe {
+    padding-bottom: env(safe-area-inset-bottom)
+}
+
+.t-tab-bar--round {
+    border-radius: 999px;
+    box-shadow: var(--td-tab-bar-round-shadow,var(--td-shadow-3,0 6px 30px 5px rgba(0,0,0,.05),0 16px 24px 2px rgba(0,0,0,.04),0 8px 10px -5px rgba(0,0,0,.08)));
+    margin-left: 32rpx;
+    margin-right: 32rpx
+}
+
+.t-tab-bar--fixed.t-tab-bar--round.t-tab-bar--safe {
+    bottom: constant(safe-area-inset-bottom);
+    bottom: env(safe-area-inset-bottom)
+}

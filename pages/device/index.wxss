@@ -1,0 +1,233 @@
+.device_info {
+    background-color: #009688;
+    height: 424rpx;
+    width: 100%
+}
+
+.device_info .device {
+    margin-top: 100rpx
+}
+
+.device_info .device .model {
+    color: #fff;
+    font-size: 52rpx;
+    text-align: center
+}
+
+.device_info .device .version {
+    color: #fff;
+    font-size: 32rpx;
+    margin-top: 32rpx;
+    text-align: center
+}
+
+.device_info .device .mcuuid {
+    color: #fff;
+    font-size: 32rpx;
+    margin-top: 8rpx;
+    text-align: center
+}
+
+.shutdown {
+    margin-top: -55rpx
+}
+
+.shutdown,.shutdown-image {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 120rpx;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.shutdown-image {
+    background: #eee;
+    border: 2px solid rgba(0,220,220,.6);
+    border-radius: 100%;
+    width: 120rpx;
+    z-index: 9999
+}
+
+.device_info .head {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding-top: 12rpx
+}
+
+.device_info .head,.device_info .head .attery {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex
+}
+
+.device_info .head .attery {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    height: 16rpx;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-left: 22rpx
+}
+
+.device_info .head .attery .attery_icon {
+    margin-right: 5rpx
+}
+
+.device_info .head .attery .attery_value {
+    font-size: 28rpx;
+    margin-left: 5rpx
+}
+
+.device_info .head .btn_link {
+    -webkit-align-items: center;
+    align-items: center;
+    color: #0052d9;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    font-size: 32rpx;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-right: 22rpx
+}
+
+.device_info .head .btn_link_disabled {
+    color: #acacac;
+    pointer-events: none
+}
+
+.device_info .head .btn_link .btn_icon {
+    margin-right: 4rpx
+}
+
+.device_info .head .btn_link .btn_title {
+    margin-left: 4rpx
+}
+
+.device-block {
+    margin-bottom: 12rpx;
+    margin-top: 12rpx
+}
+
+.discovery-loading {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 320rpx
+}
+
+.discovery-loading,.discovery-ring {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.discovery-ring {
+    position: fixed
+}
+
+.discovery-loading .discovery-btn {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 250rpx;
+    padding-top: 58rpx;
+    width: 250rpx
+}
+
+.discovery-loading .discovery-btn,.discovery-loading .discovery-loading-image {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.discovery-loading .discovery-loading-image {
+    background: #eee;
+    border-radius: 100%;
+    height: 164rpx;
+    width: 164rpx
+}
+
+.discovery-loading .discovery-txt {
+    color: #0052d9;
+    font-size: 28rpx;
+    height: 48rpx;
+    padding-top: 15rpx
+}
+
+.discovery-tip {
+    font-size: 30rpx;
+    padding: 82rpx 32rpx 0
+}
+
+.title-text {
+    font-size: 36rpx;
+    font-weight: 700;
+    padding: 24rpx
+}
+
+.tip-text {
+    font-size: 30rpx;
+    line-height: 1.5;
+    padding: 0rpx 32rpx 6rpx
+}
+
+.tip-text .danger-text {
+    color: red;
+    padding-bottom: 16rpx
+}
+
+.tip-text .warning-text {
+    color: orange;
+    padding-bottom: 16rpx
+}
+
+.link-text {
+    color: #0052d9
+}
+
+.selectBLE-block {
+    background: #fff;
+    border-top-left-radius: 16rpx;
+    border-top-right-radius: 16rpx;
+    color: #333;
+    padding-bottom: 32rpx;
+    width: 100%
+}
+
+.select-title {
+    -webkit-flex: 1;
+    flex: 1;
+    font-size: 32rpx;
+    padding-bottom: 32rpx;
+    padding-top: 32rpx;
+    text-align: center
+}
+
+.select-card {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative
+}
+
+.select-card--active {
+    border-color: #0052d9
+}
+
+.block-item-after {
+    background-color: #c3c3c4;
+    height: 1px;
+    left: 0;
+    right: 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5)
+}

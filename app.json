@@ -1,0 +1,72 @@
+{
+  "entryPagePath": "pages/device/index",
+  "pages": [
+    "pages/device/index",
+    "pages/cardHub/index",
+    "pages/my/index",
+    "pages/logs/logs",
+    "pages/DataControl/index",
+    "pages/Login/index",
+    "pages/SetPassword/index",
+    "pages/SignUp/index",
+    "pages/Login/wxLogin",
+    "pages/my/userInfo",
+    "pages/cardHub/cardHubSelect",
+    "pages/DataControl/DataModify",
+    "pages/DataControl/DataComp",
+    "pages/DataControl/DataImport",
+    "pages/my/devicesInfo",
+    "pages/my/localDataInfo",
+    "pages/my/deviceUpdate",
+    "pages/my/keyStore",
+    "pages/DataControl/Detection",
+    "pages/DataControl/NFCSimulateKey",
+    "pages/my/version",
+    "pages/DataControl/TestSimulateTag",
+    "pages/DataControl/SetNewIDCardData",
+    "pages/my/configInfo",
+    "pages/DataControl/selectNdefRecord",
+    "pages/DataControl/setNFCTag",
+    "pages/DataControl/NdefTagRecord",
+    "pages/my/PrivacyPolicy",
+    "pages/my/UserAgreement"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "搜索蓝牙设备前需要获取您的地理位置，如果不开启可能会有影响"
+    }
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "text": "设备",
+        "pagePath": "pages/device/index"
+      },
+      {
+        "text": "卡包",
+        "pagePath": "pages/cardHub/index"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/index"
+      }
+    ]
+  },
+  "renderer": "webview",
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "componentFramework": "exparser",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "CopyKey NFC Tools",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {}
+}

@@ -1,0 +1,9 @@
+<import src="../../common/template/button.wxml"></import>
+<template name="draggable">
+    <t-draggable bind:end="onEnd" bind:move="onMove" bind:start="onStart" direction="{{draggable===true?'all':draggable}}" id="draggable" style="right:16px;bottom:32px;{{_._style( [style,customStyle,moveStyle] )}}">
+        <slot wx:if="{{!buttonData.content&&!buttonData.icon}}"></slot>
+        <template is="button" data="{{useDefaultSlot:true,...buttonData}}" wx:else></template>
+    </t-draggable>
+</template>
+
+<wxs module="_" src="..\..\common\utils.wxs"/>

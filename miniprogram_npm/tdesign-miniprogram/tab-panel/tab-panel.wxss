@@ -1,0 +1,20 @@
+@import "..\common\style\index.wxss";
+
+.t-tab-panel {
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    height: 100%;
+    overflow-y: auto;
+    width: 100%
+}
+
+.t-tab-panel--active {
+    height: auto
+}
+
+.t-tab-panel--inactive {
+    height: 0;
+    overflow: visible
+}

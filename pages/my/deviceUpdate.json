@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "固件升级",
+  "usingComponents": {
+    "t-toast": "../../miniprogram_npm/tdesign-miniprogram/toast/toast",
+    "t-button": "../../miniprogram_npm/tdesign-miniprogram/button/button",
+    "t-progress": "../../miniprogram_npm/tdesign-miniprogram/progress/progress",
+    "t-message": "../../miniprogram_npm/tdesign-miniprogram/message/message",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

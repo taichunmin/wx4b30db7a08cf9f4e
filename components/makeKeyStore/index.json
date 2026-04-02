@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-dialog": "../../miniprogram_npm/tdesign-miniprogram/dialog/dialog",
+    "t-textarea": "../../miniprogram_npm/tdesign-miniprogram/textarea/textarea",
+    "t-input": "../../miniprogram_npm/tdesign-miniprogram/input/input",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "新建卡数据",
+  "usingComponents": {
+    "t-toast": "../../miniprogram_npm/tdesign-miniprogram/toast/toast",
+    "t-popup": "../../miniprogram_npm/tdesign-miniprogram/popup/popup",
+    "t-cell-group": "../../miniprogram_npm/tdesign-miniprogram/cell-group/cell-group",
+    "t-cell": "../../miniprogram_npm/tdesign-miniprogram/cell/cell",
+    "t-button": "../../miniprogram_npm/tdesign-miniprogram/button/button",
+    "t-icon": "../../miniprogram_npm/tdesign-miniprogram/icon/icon",
+    "t-input": "../../miniprogram_npm/tdesign-miniprogram/input/input",
+    "t-picker": "../../miniprogram_npm/tdesign-miniprogram/picker/picker",
+    "t-picker-item": "../../miniprogram_npm/tdesign-miniprogram/picker-item/picker-item",
+    "t-dropdown-menu": "../../miniprogram_npm/tdesign-miniprogram/dropdown-menu/dropdown-menu",
+    "t-dropdown-item": "../../miniprogram_npm/tdesign-miniprogram/dropdown-item/dropdown-item",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

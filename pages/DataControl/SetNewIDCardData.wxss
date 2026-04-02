@@ -1,0 +1,92 @@
+.detect-card {
+    background-color: #87cefa;
+    border: 3rpx solid #10101010;
+    border-radius: 16rpx;
+    margin: 26rpx 48rpx 0;
+    padding: 32rpx
+}
+
+.title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-top: 12rpx
+}
+
+.title {
+    font-size: 32rpx;
+    padding-left: 12rpx
+}
+
+.read-tag,.title-abreast {
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.read-tag,.read-tag-item,.title-abreast {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex
+}
+
+.read-tag-item {
+    color: #0052d9;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 98rpx
+}
+
+.read-tag-item-text {
+    font-size: 26rpx;
+    padding-left: 4rpx
+}
+
+.popup-page {
+    padding: 0 16rpx 32rpx
+}
+
+.refresh {
+    padding-left: 64rpx;
+    padding-right: 32rpx
+}
+
+.title-input {
+    padding: 0rpx 12rpx!important;
+    width: 100%;
+    word-spacing: -4px
+}
+
+.popup-block {
+    background: #fff;
+    border-top-left-radius: 16rpx;
+    border-top-right-radius: 16rpx;
+    width: 100vw
+}
+
+.popup-header {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 116rpx;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.popup-btn {
+    font-size: 32rpx;
+    padding: 32rpx
+}
+
+.popup-btn--cancel {
+    color: rgba(0,0,0,.6)
+}
+
+.popup-btn--confirm {
+    color: #0052d9
+}
+
+.btn-outline {
+    margin: 48rpx 24rpx 0
+}

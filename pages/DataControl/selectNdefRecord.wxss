@@ -1,0 +1,78 @@
+.cell {
+    --td-cell-description-font-size: 22rpx
+}
+
+.popup-block {
+    background: #fff;
+    border-top-left-radius: 16rpx;
+    border-top-right-radius: 16rpx;
+    width: 100vw
+}
+
+.popup-header {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 116rpx;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.popup-page {
+    padding: 0 16rpx 32rpx
+}
+
+.popup-btn {
+    font-size: 32rpx;
+    padding: 32rpx
+}
+
+.popup-btn--cancel {
+    color: rgba(0,0,0,.6)
+}
+
+.popup-btn--confirm {
+    color: #0052d9
+}
+
+.title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-left: 12rpx;
+    padding-top: 12rpx
+}
+
+.title-abreast {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.title-icon {
+    padding-left: 64rpx;
+    padding-right: 32rpx
+}
+
+.btn-outline {
+    margin: 48rpx 24rpx 24rpx
+}
+
+.textarea-label {
+    --td-font-size-base: 32rpx
+}
+
+.popup-dropdown {
+    --td-spacer: 0rpx;
+    --td-dropdown-body-max-height: 400rpx;
+    margin: 0 32rpx
+}
+
+.t-dropdown-menu__item {
+    -webkit-justify-content: left!important;
+    justify-content: left!important
+}

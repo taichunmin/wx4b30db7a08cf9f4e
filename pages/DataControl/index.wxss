@@ -1,0 +1,356 @@
+.sectors-table-view {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    width: 100%
+}
+
+.sector-col-8 {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: 64rpx;
+    margin: 6rpx;
+    width: 81rpx
+}
+
+.message-tip {
+    font-size: 28rpx;
+    margin-top: 24rpx;
+    text-align: center
+}
+
+.card-sector-item-data {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%
+}
+
+.card-sector-item-data,.card-sector-item-loading {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%
+}
+
+.card-sector-item-loading {
+    color: gray;
+    height: 70%;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.card-sector-item-keys {
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    display: -webkit-flex;
+    display: flex;
+    height: 30%;
+    width: 100%
+}
+
+.card-sector-item-key {
+    height: 100%;
+    width: 50%
+}
+
+.card-sector-item-key-working {
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #639;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%
+}
+
+.card-sector-item-key-working,.data-content {
+    display: -webkit-flex;
+    display: flex;
+    height: 100%
+}
+
+.data-content {
+    -webkit-flex-direction: column;
+    flex-direction: column
+}
+
+.buttontouch {
+    color: #888;
+    height: 52rpx
+}
+
+.buttontouch-bottom,.buttontouch-top {
+    border-bottom: 1rpx solid #cccccc30
+}
+
+.buttontouch-up {
+    border-top: 1rpx solid #87ceeb50
+}
+
+.buttontouch-down,.buttontouch-up {
+    border-radius: 100%;
+    color: #00968880
+}
+
+.buttontouch-down {
+    border-bottom: 1rpx solid #87ceeb50
+}
+
+.button-list-view,.data-auto-adaption {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: scroll
+}
+
+.button-list-scroll {
+    height: 100%;
+    width: 100%
+}
+
+.data-view {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%
+}
+
+.decode-scroll {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: scroll
+}
+
+.data-center,.decode-scroll-view {
+    height: 100%
+}
+
+.external-view {
+    margin-bottom: 4rpx;
+    margin-top: 4rpx
+}
+
+.external-class {
+    border-radius: 0!important
+}
+
+.btn_disabled {
+    --td-cell-title-color: #acacac;
+    --td-cell-description-color: #acacac;
+    color: #acacac;
+    pointer-events: none
+}
+
+.no-info {
+    -webkit-align-items: center;
+    align-items: center;
+    color: gray;
+    font-size: 26rpx;
+    height: 84rpx
+}
+
+.data-head,.no-info {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.data-head {
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(180deg,transparent 50%,#e6e6e6 0) 0 0 100% 0;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 92rpx;
+    width: 750rpx
+}
+
+.title {
+    color: #404040;
+    font-size: 26rpx;
+    padding-left: 12rpx
+}
+
+.card-data-scroll {
+    background-color: #fff;
+    height: 100%;
+    width: 100%
+}
+
+.card-data-scroll-data {
+    margin: 24rpx
+}
+
+.info-bottom {
+    padding: 8rpx 24rpx
+}
+
+.info-bottom,.info-filename {
+    height: 32rpx;
+    text-align: center
+}
+
+.info-filename {
+    font-size: 26rpx;
+    padding: 6rpx
+}
+
+.button-block {
+    grid-gap: 16rpx;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 12rpx 22rpx
+}
+
+.analysis-data-text-info {
+    font-size: 32rpx
+}
+
+.analysis-data-text-error {
+    color: #b00000;
+    font-size: 32rpx
+}
+
+.select-title {
+    font-size: 34rpx;
+    font-weight: 700;
+    padding-bottom: 24rpx;
+    padding-top: 32rpx;
+    text-align: center
+}
+
+.cardselect-popup-block {
+    padding: 32rpx;
+    width: 540rpx
+}
+
+.cardselect-popup-block,.popup-block {
+    background: #fff;
+    border-radius: 10rpx;
+    color: #333
+}
+
+.popup-block {
+    float: right;
+    margin-top: 10%;
+    padding: 12rpx 64rpx;
+    width: 380rpx
+}
+
+.popup-block-item {
+    -webkit-align-items: center;
+    align-items: center;
+    background: #fff;
+    color: #333;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 32rpx;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 10rpx
+}
+
+.popup-block-item::after {
+    border: none
+}
+
+.popup-block-item-after {
+    background-color: #c3c3c4;
+    height: 1px;
+    left: 0;
+    right: 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5)
+}
+
+.select-card {
+    padding-bottom: 24rpx;
+    padding-left: 24rpx;
+    text-align: left;
+    width: 380rpx
+}
+
+.select-card-title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-top: 12rpx
+}
+
+.select-card-title {
+    font-size: 32rpx;
+    padding-left: 16rpx
+}
+
+.setdata-recommend {
+    color: gray;
+    font-size: 28rpx;
+    padding-top: 16rpx;
+    text-align: center
+}
+
+.setdata-recommend-name {
+    color: #218df9;
+    padding: 0 8rpx
+}
+
+.setdata-recommend-tip {
+    color: #218df9;
+    padding-top: 12rpx
+}
+
+.data-head-title-abreast {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.data-head-icon {
+    padding-right: 24rpx
+}
+
+.card-data-items {
+    padding: 16rpx
+}
+
+.card-data-title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-left: 16rpx;
+    padding-top: 12rpx
+}
+
+.card-data-title {
+    font-size: 26rpx;
+    padding-left: 32rpx
+}
+
+.long-content {
+    color: #888;
+    font-size: 32rpx;
+    height: 576rpx;
+    margin-top: 16rpx
+}
+
+.long-content .content-container {
+    white-space: pre-line
+}
+
+.radio-show {
+    --td-radio-vertical-padding: 32rpx 0rpx 0 0rpx;
+    font-size: 28rpx;
+    text-align: left
+}
+
+.radio-class-border {
+    height: 0!important
+}

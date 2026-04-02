@@ -1,0 +1,51 @@
+.signup {
+    padding: 48rpx
+}
+
+.signup-title {
+    font-size: 48rpx;
+    font-weight: 700;
+    margin-bottom: 24rpx
+}
+
+.signup .input {
+    --td-input-vertical-padding: 24rpx;
+    --td-input-horizontal-padding: 24rpx;
+    bottom: 0;
+    left: 0;
+    padding: 24rpx;
+    position: fixed;
+    width: 702rpx
+}
+
+.signup .input .t-input {
+    margin-bottom: 16rpx
+}
+
+.signup .input .t-button {
+    margin-bottom: 32rpx;
+    margin-top: 32rpx
+}
+
+.signup .input .toLogin {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 32rpx;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    margin: 32rpx 20rpx
+}
+
+.suffix--line {
+    background-color: #f6f6f6;
+    height: 24px;
+    margin-right: 16px;
+    width: 1px
+}
+
+.verify {
+    color: #0052d9;
+    font-size: 32rpx
+}

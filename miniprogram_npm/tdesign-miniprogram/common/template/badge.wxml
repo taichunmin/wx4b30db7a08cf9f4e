@@ -1,0 +1,3 @@
+<template name="badge">
+    <t-badge color="{{color||''}}" content="{{content||''}}" count="{{count||0}}" dot="{{dot||false}}" maxCount="{{maxCount||99}}" offset="{{offset||[]}}" shape="{{shape||'circle'}}" showZero="{{showZero||false}}" size="{{size||'medium'}}" tClass="{{tClass}}" tClassContent="{{tClassContent}}" tClassCount="{{tClassCount}}"></t-badge>
+</template>

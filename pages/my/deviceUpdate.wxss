@@ -1,0 +1,86 @@
+.device-info {
+    margin-top: 32rpx;
+    text-align: center
+}
+
+.device-model {
+    font-size: 38rpx;
+    font-weight: 700
+}
+
+.device-attery {
+    color: red;
+    font-size: 18rpx;
+    margin-top: 6rpx
+}
+
+.device-version {
+    font-size: 28rpx;
+    margin-top: 6rpx
+}
+
+.device-sn {
+    font-size: 28rpx
+}
+
+.load {
+    margin-top: 64rpx;
+    text-align: center
+}
+
+.load-progress {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.load-info {
+    font-size: 32rpx;
+    margin: 32rpx
+}
+
+.load-tip {
+    font-size: 28rpx;
+    padding: 32rpx;
+    text-align: left;
+    width: 702rpx
+}
+
+.load-tip-data {
+    width: 750rpx
+}
+
+.update-data {
+    background-color: #fff;
+    padding: 24rpx;
+    width: 750rpx
+}
+
+.title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-left: 8rpx;
+    padding-top: 12rpx
+}
+
+.title {
+    font-size: 28rpx;
+    padding-left: 24rpx
+}
+
+.btn-bottom {
+    bottom: 40rpx;
+    left: 24rpx;
+    position: fixed;
+    right: 24rpx
+}
+
+.external-class {
+    border-radius: 0!important
+}

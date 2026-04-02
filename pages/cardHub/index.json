@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "卡包",
+  "usingComponents": {
+    "t-pull-down-refresh": "../../miniprogram_npm/tdesign-miniprogram/pull-down-refresh/pull-down-refresh",
+    "t-sticky": "../../miniprogram_npm/tdesign-miniprogram/sticky/sticky",
+    "t-search": "../../miniprogram_npm/tdesign-miniprogram/search/search",
+    "t-loading": "../../miniprogram_npm/tdesign-miniprogram/loading/loading",
+    "t-link": "../../miniprogram_npm/tdesign-miniprogram/link/link",
+    "t-cell-group": "../../miniprogram_npm/tdesign-miniprogram/cell-group/cell-group",
+    "t-cell": "../../miniprogram_npm/tdesign-miniprogram/cell/cell",
+    "t-back-top": "../../miniprogram_npm/tdesign-miniprogram/back-top/back-top",
+    "t-badge": "../../miniprogram_npm/tdesign-miniprogram/badge/badge",
+    "t-divider": "../../miniprogram_npm/tdesign-miniprogram/divider/divider",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

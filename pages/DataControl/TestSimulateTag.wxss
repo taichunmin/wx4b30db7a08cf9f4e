@@ -1,0 +1,60 @@
+.simulate {
+    height: 100vh;
+    width: 100%
+}
+
+.simulate-card {
+    background-color: #87cefa;
+    border: 3rpx solid #10101010;
+    border-radius: 16rpx;
+    margin: 26rpx 48rpx 0;
+    padding: 32rpx
+}
+
+.simulate-card .title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-top: 12rpx
+}
+
+.simulate-card .title {
+    font-size: 32rpx;
+    padding-left: 12rpx
+}
+
+.simulate-info {
+    color: brown;
+    padding: 32rpx 32rpx 0
+}
+
+.simulate-info,.simulate-test {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 32rpx;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.simulate-test {
+    color: gray;
+    padding: 12rpx
+}
+
+.btn-bottom-quit {
+    bottom: 48rpx;
+    left: 24rpx;
+    position: fixed;
+    right: 24rpx
+}
+
+.btn-disabled {
+    color: #acacac;
+    pointer-events: none
+}
+
+.test-stop-btn {
+    margin-bottom: 24rpx
+}

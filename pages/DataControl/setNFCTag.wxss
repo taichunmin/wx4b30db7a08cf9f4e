@@ -1,0 +1,92 @@
+.btn-outline {
+    margin: 24rpx
+}
+
+.box-wrap {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100vh
+}
+
+.top-wrap {
+    -webkit-flex: 0 0 wrap;
+    flex: 0 0 wrap
+}
+
+.bottom-wrap {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: scroll
+}
+
+.cell {
+    --td-cell-description-font-size: 22rpx
+}
+
+.setdata-recommend {
+    color: gray;
+    font-size: 28rpx;
+    padding-top: 16rpx;
+    text-align: center
+}
+
+.setdata-recommend-name {
+    color: #218df9;
+    padding: 0 8rpx
+}
+
+.setdata-recommend-tip {
+    color: #218df9;
+    padding-top: 12rpx
+}
+
+.block-item-after {
+    background-color: #c3c3c4;
+    height: 1px;
+    left: 0;
+    right: 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5)
+}
+
+.cell-icon {
+    padding: 4rpx 32rpx
+}
+
+.popup-block {
+    background: #fff;
+    border-radius: 10rpx;
+    color: #333;
+    float: right;
+    margin-top: 10%;
+    padding: 12rpx 64rpx;
+    width: 380rpx
+}
+
+.popup-block-item {
+    -webkit-align-items: center;
+    align-items: center;
+    background: #fff;
+    color: #333;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 32rpx;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 10rpx
+}
+
+.popup-block-item::after {
+    border: none
+}
+
+.popup-block-item-after {
+    background-color: #c3c3c4;
+    height: 1px;
+    left: 0;
+    right: 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5)
+}

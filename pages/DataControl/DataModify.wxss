@@ -1,0 +1,148 @@
+.card-data-name {
+    font-size: 34rpx;
+    padding-bottom: 12rpx;
+    padding-left: 24rpx;
+    padding-top: 24rpx
+}
+
+.html-data-text {
+    font-size: 29rpx;
+    padding: 6rpx 24rpx
+}
+
+.html-data-text,.input-cell-input {
+    font-family: monospace,Courier New,Courier
+}
+
+.input-cell-input {
+    background: #0052d910;
+    border: 1px solid #dcdcdc;
+    font-size: 32rpx;
+    height: 128rpx;
+    padding: 26rpx 12rpx!important;
+    width: inherit
+}
+
+.custom-capsule {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%
+}
+
+.custom-capsule__icon {
+    -webkit-flex: 1;
+    flex: 1;
+    position: relative
+}
+
+.custom-capsule__icon + .custom-capsule__icon:before {
+    background: #e7e7e7;
+    content: "";
+    display: block;
+    height: 36rpx;
+    left: -1px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px
+}
+
+.title-name {
+    color: gray;
+    font-size: 24rpx;
+    padding-bottom: 8rpx;
+    padding-top: 12rpx
+}
+
+.title-input {
+    padding: 8rpx 12rpx!important;
+    width: 100%;
+    word-spacing: -4px
+}
+
+.title-iocn {
+    padding-right: 92rpx!important
+}
+
+.title {
+    font-size: 32rpx;
+    padding-left: 12rpx
+}
+
+.read-tag,.title-abreast {
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.read-tag,.read-tag-item,.title-abreast {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex
+}
+
+.read-tag-item {
+    color: #0052d9;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 98rpx
+}
+
+.read-tag-item-text {
+    font-size: 26rpx;
+    padding-left: 4rpx
+}
+
+.popup-block {
+    background: #fff;
+    border-top-left-radius: 16rpx;
+    border-top-right-radius: 16rpx;
+    width: 100vw
+}
+
+.popup-header {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 116rpx;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.popup-page {
+    padding: 0 16rpx 32rpx
+}
+
+.popup-btn {
+    font-size: 32rpx;
+    padding: 32rpx
+}
+
+.refresh {
+    padding-left: 64rpx;
+    padding-right: 32rpx
+}
+
+.popup-btn--cancel {
+    color: rgba(0,0,0,.6)
+}
+
+.popup-btn--confirm {
+    color: #0052d9
+}
+
+.sector-select-radiobox {
+    --td-radio-font-size: 29rpx;
+    background-color: var(--td-bg-color-container,#fff);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 8rpx
+}

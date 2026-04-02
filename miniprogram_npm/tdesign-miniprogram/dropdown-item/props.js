@@ -1,0 +1,44 @@
+Object.defineProperty(exports, "__esModule", {
+  value: !0
+}), exports.default = void 0;
+var e = {
+  disabled: {
+    type: Boolean,
+    value: !1
+  },
+  externalClasses: {
+    type: Array
+  },
+  keys: {
+    type: Object
+  },
+  label: {
+    type: String,
+    value: ""
+  },
+  multiple: {
+    type: Boolean,
+    value: !1
+  },
+  options: {
+    type: Array,
+    value: []
+  },
+  optionsColumns: {
+    type: null,
+    value: 1
+  },
+  placement: {
+    type: String,
+    value: "left"
+  },
+  value: {
+    type: null,
+    value: void 0
+  },
+  defaultValue: {
+    type: null,
+    value: void 0
+  }
+};
+exports.default = e;

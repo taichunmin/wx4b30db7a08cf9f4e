@@ -1,0 +1,38 @@
+.cardhubs-search {
+    --td-search-square-radius: 0rpx;
+    --td-search-bg-color: #fff
+}
+
+.search-btn {
+    -webkit-align-items: center;
+    align-items: center;
+    background: #fff;
+    color: #2874ff;
+    font-size: 32rpx;
+    height: 80rpx;
+    width: 120rpx
+}
+
+.btn_link,.search-btn {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.btn_link {
+    padding-right: 24rpx;
+    padding-top: 12rpx
+}
+
+.loading-info {
+    padding-bottom: 24rpx
+}
+
+.cardHub-ntag-cell {
+    --td-cell-bg-color: #00bfff33
+}
+
+.cardHub-id-cell {
+    --td-cell-bg-color: #98f5ff33
+}

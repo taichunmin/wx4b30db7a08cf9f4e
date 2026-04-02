@@ -1,0 +1,76 @@
+@import "..\common\style\index.wxss";
+
+.t-textarea {
+    background-color: var(--td-textarea-background-color,var(--td-bg-color-container,var(--td-font-white-1,#fff)));
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 32rpx
+}
+
+.t-textarea__label:not(:empty) {
+    color: var(--td-textarea-label-color,var(--td-text-color-primary,var(--td-font-gray-1,rgba(0,0,0,.9))));
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    font-size: var(--td-font-size-base,28rpx);
+    line-height: 44rpx;
+    overflow: hidden;
+    padding-bottom: var(--td-spacer,16rpx);
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.t-textarea__wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%
+}
+
+.t-textarea__wrapper-inner {
+    background-color: initial;
+    border: 0;
+    box-sizing: border-box;
+    color: var(--td-textarea-text-color,var(--td-text-color-primary,var(--td-font-gray-1,rgba(0,0,0,.9))));
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-size: var(--td-font-size-m,32rpx);
+    line-height: 48rpx;
+    margin: 0;
+    min-height: 20px;
+    min-width: 0;
+    padding: 0;
+    resize: none;
+    text-align: left;
+    width: inherit
+}
+
+.t-textarea__placeholder {
+    color: var(--td-textarea-placeholder-color,var(--td-text-color-placeholder,var(--td-font-gray-3,rgba(0,0,0,.4))));
+    font-size: var(--td-font-size-m,32rpx)
+}
+
+.t-textarea__indicator:not(:empty) {
+    color: var(--td-textarea-indicator-text-color,var(--td-text-color-placeholder,var(--td-font-gray-3,rgba(0,0,0,.4))));
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    font-size: var(--td-spacer-1,24rpx);
+    line-height: 40rpx;
+    padding-top: var(--td-spacer,16rpx);
+    text-align: right
+}
+
+.t-textarea--border {
+    border: 2rpx solid var(--td-textarea-border-color,var(--td-component-border,var(--td-gray-color-4,#dcdcdc)));
+    border-radius: var(--td-textarea-border-radius,var(--td-radius-default,12rpx))
+}
+
+.t-textarea .t-is-disabled {
+    color: var(--td-textarea-disabled-text-color,var(--td-text-color-disabled,var(--td-font-gray-4,rgba(0,0,0,.26))))
+}

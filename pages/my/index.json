@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "t-toast": "../../miniprogram_npm/tdesign-miniprogram/toast/toast",
+    "t-badge": "../../miniprogram_npm/tdesign-miniprogram/badge/badge",
+    "t-image": "../../miniprogram_npm/tdesign-miniprogram/image/image",
+    "t-textarea": "../../miniprogram_npm/tdesign-miniprogram/textarea/textarea",
+    "t-cell-group": "../../miniprogram_npm/tdesign-miniprogram/cell-group/cell-group",
+    "t-cell": "../../miniprogram_npm/tdesign-miniprogram/cell/cell",
+    "t-sticky": "../../miniprogram_npm/tdesign-miniprogram/sticky/sticky",
+    "main-tabbar": "custom-tab-bar/index"
+  }
+}

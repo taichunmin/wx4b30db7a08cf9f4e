@@ -1,0 +1,37 @@
+page {
+    background-color: #f6f6f6
+}
+
+.container {
+    -webkit-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 200rpx 0
+}
+
+.html-data-text {
+    color: #606060;
+    font-size: 29rpx
+}
+
+.html-data-text,.html-tip-text {
+    font-family: monospace,Courier New,Courier;
+    word-spacing: -4px
+}
+
+.html-tip-text {
+    color: #565656;
+    font-size: 27rpx
+}
+
+.nav-title {
+    --td-navbar-title-font-size: 14px;
+    --td-navbar-title-font-weight: normal
+}

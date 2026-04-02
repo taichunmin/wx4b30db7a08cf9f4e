@@ -1,0 +1,5 @@
+<view class="wrapper">
+    <t-tab-bar bindchange="switchTap" split="{{false}}" theme="tag" value="{{value}}">
+        <t-tab-bar-item badgeProps="{{({dot:item.dot})}}" icon="{{item.icon}}" value="{{item.value}}" wx:for="{{list}}" wx:key="index">{{item.label}}</t-tab-bar-item>
+    </t-tab-bar>
+</view>

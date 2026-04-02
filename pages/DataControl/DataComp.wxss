@@ -1,0 +1,33 @@
+.card-data-title {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 32rpx;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 12rpx 24rpx
+}
+
+.card-data-comp-title {
+    color: #0052d9
+}
+
+.card-data-name {
+    font-size: 34rpx;
+    padding-bottom: 12rpx;
+    padding-left: 24rpx;
+    padding-top: 24rpx
+}
+
+.html-data-text {
+    padding: 6rpx 0rpx;
+    text-align: center
+}
+
+.card-data-block {
+    color: silver;
+    font-size: 24rpx;
+    padding-bottom: 2px;
+    text-align: center
+}
